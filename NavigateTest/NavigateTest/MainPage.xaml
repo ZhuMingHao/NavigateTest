@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="NavigateTest.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:NavigateTest"
+    >
+
+    <StackLayout>
+        <Button
+            x:Name="CloseBtn"
+            Clicked="CloseClick"
+            HorizontalOptions="End"
+            IsVisible="False"
+            Text="Close"
+            VerticalOptions="Start"
+            />
+        <!--  Place new controls here  -->
+        <Label
+            HorizontalOptions="Center"
+            Text="Welcome to Xamarin.Forms!"
+            VerticalOptions="CenterAndExpand"
+            />
+        <Button Clicked="Button_Clicked" Text="Next" />
+
+    </StackLayout>
+
+</ContentPage>
